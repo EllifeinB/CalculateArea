@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalculateAreaTest/1.0.0": {
+        "dependencies": {
+          "CalculateArea": "1.0.0"
+        },
+        "runtime": {
+          "CalculateAreaTest.dll": {}
+        }
+      },
+      "CalculateArea/1.0.0": {
+        "runtime": {
+          "CalculateArea.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculateAreaTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculateArea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
