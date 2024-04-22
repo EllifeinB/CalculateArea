@@ -1,0 +1,8 @@
+Table Product (Id, Name)
+Table Category (Id, Name)
+Table ProductToCategory (ProductId, CategoryId)
+
+Select p.Name, c.Name
+FROM Product p
+LEFT JOIN ProductToCategory ptc on p.Id=ptc.ProductId
+LEFT JOIN Category c on c.Id=ptc.CategoryId
