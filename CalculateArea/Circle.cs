@@ -9,7 +9,7 @@ namespace CalculateArea
 
         public Circle(double radius)
         {
-            this.radius = radius;
+            this.radius = radius >= 0 ? radius : 0;
         }
 
         public double GetArea()

@@ -15,7 +15,7 @@ namespace CalculateArea
         {
             var arr = new double[3] { side1, side2, side3 };
             Array.Sort(arr);
-            if (arr[0] == 0 || arr[0] + arr[1] <= arr[2])
+            if (arr[0] <= 0 || arr[0] + arr[1] <= arr[2])
                 return null;
 
             return new Triangle(side1, side2, side3);
